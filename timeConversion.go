@@ -20,9 +20,6 @@ func main() {
 		}
 		b := strconv.FormatInt(a,10)
 		hasil = b+jam[2:8]
-		
-		// jam[0] = b[0]
-		// jam[1] = b[1]
 	}else{
 		hasil=jam
 	}
